@@ -1,6 +1,27 @@
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/theming/
 
+/**my new color**/
+:root {
+  --ion-color-new: #26c9b6;
+  --ion-color-new-rgb: 38,201,182;
+  --ion-color-new-contrast: #fff;
+  --ion-color-new-contrast-rgb: 0,0,0;
+  --ion-color-new-shade: #21b1a0;
+  --ion-color-new-tint: #3ccebd;
+}
+
+.ion-color-new {
+  --ion-color-base: var(--ion-color-new);
+  --ion-color-base-rgb: var(--ion-color-new-rgb);
+  --ion-color-contrast: var(--ion-color-new-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-new-contrast-rgb);
+  --ion-color-shade: var(--ion-color-new-shade);
+  --ion-color-tint: var(--ion-color-new-tint);
+}
+
+
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
